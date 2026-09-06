@@ -1,0 +1,23 @@
+{
+  "name": "n8n-nodes-anonymiser-toolkit",
+  "version": "1.0.0",
+  "description": "n8n community node for Anonymiser Toolkit",
+  "keywords": [
+    "n8n-community-node-package",
+    "anonymiser"
+  ],
+  "license": "Apache-2.0",
+  "author": {
+    "name": "mirdora-dev",
+    "email": "272480851+mirdora-dev@users.noreply.github.com"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/AnonymiserToolkitApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/AnonymiserToolkit/AnonymiserToolkit.node.js"
+    ]
+  }
+}
